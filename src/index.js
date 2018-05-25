@@ -18,7 +18,7 @@ export default {
     })
 
     fpm.registerAction('BEFORE_SERVER_START', () => {
-      fpm.logger.log('Run BEFORE_SERVER_START Actions')
+      fpm.logger.error('Run BEFORE_SERVER_START Actions')
     })
 
   }
