@@ -1,11 +1,11 @@
 {
   "name": "fpm-plugin-logger",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A Fpm's Plugin For Logger",
   "main": "lib/index.js",
   "scripts": {
     "compile": "./node_modules/.bin/babel -d lib/ src/",
-    "prepublish": "npm run compile",
+    "prepublishOnly": "npm run compile",
     "dev": "./node_modules/.bin/nodemon dev/dev.babel.js",
     "test": "./node_modules/.bin/mocha test/*.test.js"
   },

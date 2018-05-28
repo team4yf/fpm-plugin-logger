@@ -1,3 +1,3 @@
-## 0.0.1
+## 1.0.1
 
-Init
+Replace `fpm.logger` when run `bind()`
